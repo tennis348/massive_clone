@@ -1,0 +1,119 @@
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 321px){
+    .main-text{
+        font-size: 200%;
+    }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px){
+    header p{
+        font-size: 140%;
+        text-align: center;
+    }
+
+    .main-text{
+        font-size: 350%;
+    }
+
+    .option1,
+    .option2{
+        font-size: 100%;
+    }
+
+    .icon-small{
+        display: none;
+    }
+
+    .heading1{
+        margin-top: 5%;
+        font-size: 200%;
+    }
+
+    .sub-info1{
+        font-size: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .center_page{
+        margin-left: -10%;
+    }
+
+    .pagination a{
+        font-size: 70%;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .date_left_1{
+        margin-top: -15%;
+    }
+
+    .date_right{
+        margin-top: 15%;
+    }
+
+    .date_even{
+        margin-top: -25%;
+    }
+
+    .row.divide [class*='col-']:not(:last-child):after {
+        display: none;
+    }
+
+    .contact_info{
+        margin-top: 60px;
+    }
+
+    .image1{
+        margin-top: 10%;
+        width: 300px;
+        height: 200px;
+    }
+
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+}
+
+
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------  Dummy Media Queries  -----------------------------*/
+
+/*@media (max-width:320px)  { !* smartphones, iPhone, portrait 480x320 phones *! }*/
+/*@media (min-width:481px)  { !* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. *! }*/
+/*@media (min-width:641px)  { !* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones *! }*/
+/*@media (min-width:961px)  { !* tablet, landscape iPad, lo-res laptops ands desktops *! }*/
+/*@media (min-width:1025px) { !* big landscape tablets, laptops, and desktops *! }*/
+/*@media (min-width:1281px) { !* hi-res laptops and desktops *! }*/
